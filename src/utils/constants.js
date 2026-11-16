@@ -3,6 +3,12 @@
 // Maximum allowed file size in Megabytes (MB)
 export const MAX_FILE_MB = 50
 
+// Maximum allowed pages per document for organize tool
+export const MAX_PAGES = 100
+
+// Maximum allowed images for create tool
+export const MAX_IMAGES = 30
+
 // Maximum allowed file size in Bytes
 export const MAX_FILE_BYTES = MAX_FILE_MB * 1024 * 1024
 
