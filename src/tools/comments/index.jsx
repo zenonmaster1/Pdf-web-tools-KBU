@@ -708,7 +708,7 @@ export default function CommentsTool() {
           multiple={false}
           maxFileMb={MAX_FILE_MB}
           title="แตะหรือลากไฟล์ PDF มาวางที่นี่เพื่อใส่คอมเมนต์"
-          subtitle={`รองรับไฟล์ PDF สูงสุด ${MAX_FILE_MB} MB (ประมวลผลบนเครื่องของคุณ 100%)`}
+          subtitle={`รองรับไฟล์ PDF สูงสุด ${MAX_FILE_MB} MB`}
           buttonText="เลือกไฟล์ PDF"
         />
       )}

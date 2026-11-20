@@ -29,7 +29,7 @@ export default function Home() {
       <section className="text-center py-6 sm:py-10 space-y-4">
         <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-blue-50 text-blue-700 text-xs font-semibold border border-blue-200">
           <ShieldCheck className="w-3.5 h-3.5" />
-          ประมวลผลบนเครื่องของคุณ 100% (No Server)
+          ประมวลผลบนเครื่องของคุณ (No Server)
         </span>
 
         <h1 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight leading-tight">
@@ -38,7 +38,7 @@ export default function Home() {
 
         <p className="max-w-2xl mx-auto text-xs sm:text-base text-slate-600 leading-relaxed px-4">
           จัดการไฟล์ PDF ได้สะดวกรวดเร็ว ทั้งบนคอมพิวเตอร์และมือถือ ไม่มีการอัปโหลดไฟล์ไปยังเซิร์ฟเวอร์
-          ข้อมูลส่วนตัวของคุณจึงปลอดภัยสูงสุด
+          ข้อมูลส่วนตัวของคุณจึงได้รับความปลอดภัยสูงสุด
         </p>
 
         {/* Feature Highlights */}
@@ -49,7 +49,7 @@ export default function Home() {
           </span>
           <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white border border-slate-200 shadow-2xs">
             <Smartphone className="w-3.5 h-3.5 text-blue-600" />
-            รองรับ Android & iOS
+            รองรับบนโทรศัพท์มือถือ
           </span>
           <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white border border-slate-200 shadow-2xs">
             <ShieldCheck className="w-3.5 h-3.5 text-blue-600" />

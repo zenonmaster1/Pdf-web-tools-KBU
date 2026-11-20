@@ -372,7 +372,7 @@ export default function ProtectTool() {
               ใส่รหัสผ่านป้องกันไฟล์ (Protect)
             </h1>
             <p className="text-xs sm:text-sm text-slate-500">
-              เข้ารหัสล็อกไฟล์ PDF ด้วยมาตรฐานระดับสูง (AES-256) เพื่อป้องกันการเปิดอ่านโดยไม่ได้รับอนุญาต
+              เข้ารหัสล็อกไฟล์ PDF เพื่อป้องกันการเปิดอ่านโดยไม่ได้รับอนุญาต
             </p>
           </div>
         </div>
@@ -392,7 +392,7 @@ export default function ProtectTool() {
             <div>
               <span className="font-semibold">หมายเหตุเรื่องสิทธิ์: </span>
               การจำกัดสิทธิ์ (พิมพ์/คัดลอก/แก้ไข) เป็นคำขอให้โปรแกรมอ่าน PDF ปฏิบัติตาม
-              บางโปรแกรมอาจไม่ทำตาม ส่วนรหัสผ่านเปิดไฟล์เป็นการเข้ารหัสจริงตามมาตรฐาน ISO 32000
+              บางโปรแกรมอาจไม่ทำตาม
             </div>
           </div>
         </div>
@@ -407,7 +407,7 @@ export default function ProtectTool() {
           multiple={false}
           maxFileMb={MAX_FILE_MB}
           title="แตะหรือลากไฟล์ PDF มาวางที่นี่เพื่อใส่รหัสผ่าน"
-          subtitle={`รองรับไฟล์ PDF สูงสุด ${MAX_FILE_MB} MB (ประมวลผลบนเครื่อง 100% ไม่ส่งข้อมูลออกนอกอุปกรณ์)`}
+          subtitle={`รองรับไฟล์ PDF สูงสุด ${MAX_FILE_MB} MB`}
           buttonText="เลือกไฟล์ PDF"
         />
       )}

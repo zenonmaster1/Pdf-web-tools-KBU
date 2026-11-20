@@ -7,7 +7,7 @@ export default function PrivacyBanner() {
         <ShieldCheck className="w-4 h-4 text-emerald-600 shrink-0 hidden sm:inline-block" />
         <Lock className="w-3.5 h-3.5 text-emerald-600 shrink-0 sm:hidden" />
         <span className="font-medium">
-          ไฟล์ของคุณไม่ถูกอัปโหลด ประมวลผลบนเครื่องคุณเท่านั้น (100% Client-Side Privacy)
+          ไฟล์ของคุณไม่ถูกอัปโหลด ประมวลผลบนเครื่องคุณเท่านั้น (Client-Side Processing)
         </span>
       </div>
     </div>

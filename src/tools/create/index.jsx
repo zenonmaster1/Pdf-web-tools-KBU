@@ -756,7 +756,7 @@ export default function CreateTool() {
           <div>
             <div className="flex items-center justify-between mb-1.5">
               <label className="block text-xs font-bold text-slate-700">
-                ข้อความเอกสาร (รองรับภาษาไทย พร้อมตัดคำอัตโนมัติ):
+                ข้อความเอกสาร:
               </label>
               <span className="text-[11px] text-slate-400">
                 {textContent.length} ตัวอักษร
@@ -843,7 +843,7 @@ export default function CreateTool() {
           <div className="p-3 rounded-xl bg-blue-50/70 border border-blue-200 text-xs text-blue-900 flex items-center gap-2">
             <CheckCircle2 className="w-4 h-4 text-blue-600 shrink-0" />
             <span>
-              ใช้ฟอนต์สารบรรณ (Sarabun) ภายในเครื่อง ตัดคำไทยอัตโนมัติ และแบ่งหน้าอัตโนมัติ
+              ณ ปัจจุบัน ยังมีเพียงฟอนต์สารบรรณ (Sarabun)
             </span>
           </div>
 

@@ -563,7 +563,7 @@ export default function ExportTool() {
           </div>
           <div>
             <h1 className="text-lg sm:text-xl font-bold text-slate-900">ส่งออกรูปภาพและข้อความ (Export)</h1>
-            <p className="text-xs sm:text-sm text-slate-500">แปลงหน้า PDF เป็นรูปภาพ (PNG/JPG) หรือดึงข้อความภาษาไทยออกเป็นไฟล์ .txt</p>
+            <p className="text-xs sm:text-sm text-slate-500">แปลงหน้า PDF เป็นรูปภาพ (PNG/JPG) หรือดึงข้อความออกมาเป็นไฟล์ .txt</p>
           </div>
         </div>
 
